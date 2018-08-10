@@ -1,0 +1,39 @@
+name: Dela Anthonio
+
+title: Dela Anthonio | Software Engineer
+
+email: dell.anthonio@gmail.com
+
+logo: https://delaanthonio.github.io/img/technologist.png
+
+description: >-
+  I'm Dela Anthonio, a recent graduate of Virginia Tech seeking a full-time
+  position in software engineering.
+
+baseurl: ""
+
+url: https://delaanthonio.github.io/
+
+cover: https://delaanthonio.github.io/img/headshot.jpg
+
+social:
+  - twitter: "@delaanthonio"
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

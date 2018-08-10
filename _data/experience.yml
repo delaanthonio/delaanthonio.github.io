@@ -1,0 +1,28 @@
+- company: Virginia Tech
+  url: https://www.ssrg.ece.vt.edu/
+  time: Jan 2018 – July 2018
+  role: Undergraduate Research Assistant
+  description: |
+    I worked with the Systems Software Research group at Virginia Tech on the Popcorn Linux team.
+
+    A core part of the Popcorn Linux project involves migrating processes (running instances of programs) between nodes. While the migration feature was working well, there wasn't an official test suite. As a result, it was hard to optimize the migration process. Hence, I developed regression tests for the migration feature. The tests are written in C and I automated running the tests using Python scripts.
+    Additionally, I created a pipeline on CircleCI to automate testing kernel
+    compilation for the supported architectures.
+  used: [C, Python, CircleCI]
+
+- company: Youth Global Network
+  url: https://www.ygn.org.hk
+  time: Dec 2016 – Jan 2017
+  role: Software Engineer Intern
+  description: |
+    The software engineering team was working on a game to teach computer
+
+    science to high school students through visual programming.
+    The game consisted of puzzles in which the user had to move their
+    avatar to a destination on the level.
+
+    I coded a backend module in Python to give hints to the player when
+    they were stuck. I used the neo4j graph database to store solutions to
+    levels. I worked remotely on the project since the engineering
+    team was in Hong Kong.
+  used: [Python, Neo4j]

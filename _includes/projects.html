@@ -1,0 +1,18 @@
+<section>
+    <div class="title title--section"> Projects </div>
+    <div class="content">
+        {% for project in site.data.projects %}
+        <div class="entry">
+            <div>
+                <a href="{{ project.url }}" class="title"> {{ project.name }} </a>
+            </div>
+            <p class="description"> {{ project.about }} </p>
+            <div>
+                {% for item in project.used %}
+                <span class="tag">{{ item }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

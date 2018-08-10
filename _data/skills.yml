@@ -1,0 +1,5 @@
+- name: Languages
+  skills: [C, Python, Java, HTML, CSS/Sass, Javascript, SQL]
+
+- name: Tools
+  skills: [Linux, Git + Github, Bash, Docker]

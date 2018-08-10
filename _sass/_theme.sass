@@ -1,0 +1,67 @@
+// colors
+$primary-color: #263238
+$primary-hover-color: #607d8b
+$accent: #2962ff
+$background: #fff
+$primary-light: #424242
+
+// fonts
+$title-weight: 700
+$subtitle-weight: 500
+$strong-font-weight: 700
+
+// Media queries
+$fifteen-inch-width: 1440px
+$thirteen-inch-with: 1280px
+$desktop-width: 1024px
+$little-desktop-width: 850px
+$tablet-width: 768px
+$subtablet-width: 630px
+$phablet-width: 550px
+$mobile-width: 480px
+$small-mobile-width: 360px
+$tiny-mobile-width: 330px
+
+=screen-width($width)
+  @media screen and (max-width: $width)
+    @content
+
+=fifteen
+  +screen-width($fifteen-inch-width)
+    @content
+
+=thirteen
+  +screen-width($thirteen-inch-with)
+    @content
+
+=desktop
+  +screen-width($desktop-width)
+    @content
+
+=little-desktop
+  +screen-width($little-desktop-width)
+    @content
+
+=tablet
+  +screen-width($tablet-width)
+    @content
+
+=subtablet
+  +screen-width($subtablet-width)
+    @content
+
+=phablet
+  +screen-width($phablet-width)
+    @content
+
+=mobile
+  +screen-width($mobile-width)
+    @content
+
+=small-mobile
+  +screen-width($small-mobile-width)
+    @content
+
+=tiny-mobile
+  +screen-width($tiny-mobile-width)
+    @content

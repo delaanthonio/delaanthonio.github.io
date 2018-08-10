@@ -1,0 +1,39 @@
+- name: Compound Interest
+  url: https://compound-interest-sleepy-grysbok.mybluemix.net/
+  about: >
+    An application for querying business documents As part of IBM's
+    Business Interest challenge.
+  used: [Python, Flask, REST, Discovery API]
+
+- name: Spacemacs
+  url: http://spacemacs.org/
+  about: >
+    Community driven configuration files for the emacs text editor. I've
+    contributed keybindings, bug fixes, and refactored some code.
+  used: [Emacs Lisp]
+
+- name: Glib
+  url: http://cs4604.cs.vt.edu/~delaa96/project3/index.html
+  about: >
+    Final project for my Database Management Systems course. The goal of
+    the project was to create a dashboard to manage IT infrastructure such
+    as severs, load balancers, and applications.
+  used: [PHP, SQL]
+
+- name: Sunken
+  url: https://globalgamejam.org/2017/games/sunken
+  about: >
+    I created an underwater horror/adventure game prototype with
+    other people. I wrote an algorithm to allow schools of fish in the game
+    to flock together.
+  used: [C#, Unity]
+
+- name: Kconfig Syntax Highlighter
+  url: https://github.com/delaanthonio/kconfig-mode
+  about: An Emacs module for highlighting kconfig files in the Linux kernel.
+  used: [Emacs Lisp]
+
+- name: HackerRank Solutions
+  url: https://github.com/delaanthonio/hacker-rank
+  about: My solutions to coding problems on HackerRank.
+  used: [Algorithms, Python]
