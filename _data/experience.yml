@@ -1,3 +1,11 @@
+- company: Revature
+  url: https://www.revature.com/
+  time: Nov 2018 – Present
+  role: Hadoop Engineer
+  description: |
+    I’m learned several big data technologies as part of Revature’s Big Data curriculum. This included working on one solo project and two group projects.
+  used: [Java, Python, SQL, MapReduce, Pig, Hive, Spark, Sqoop, Oozie, Zookeeper, HDFS, HBase, Cloudera, Amazon EMR]
+
 - company: Virginia Tech
   url: https://www.ssrg.ece.vt.edu/
   time: Jan 2018 – July 2018
