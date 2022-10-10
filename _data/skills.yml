@@ -1,11 +1,11 @@
 - name: Languages
-  skills: [Java, Python, SQL, C, Bash]
+  skills: [Python, Typescript, SQL, Bash]
 
-- name: Processing
-  skills: [MapReduce, Hive, Pig, Spark, Sqoop, Oozie]
+- name: Frameworks
+  skills: [Django, Nest.js]
 
-- name: Environment
-  skills: [Cloudera, CentOS, Red Hat Linux, Ubuntu, Amazon EMR]
+- name: Tools
+  skills: [Github Actions]
 
 - name: Databases & Storage
-  skills: [Oracle, HBase, HDFS, Zookeeper]
+  skills: [Oracle, MySQL, PostgresSQL]
