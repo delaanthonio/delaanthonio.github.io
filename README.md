@@ -6,7 +6,7 @@ My personal website
 ```bash
 git clone https://github.com/delaanthonio/delaanthonio.github.io
 cd delaanthonio.github.io
-bundle install
+bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
 
