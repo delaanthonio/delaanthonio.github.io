@@ -3,14 +3,16 @@
   time: Feb 2021 – Present
   role: Software Engineer
   description:
-    - Created and updated REST API endpoints to meet business needs.
-    - Migrated legacy Node.js application to Kubernetes.
+    - Created and updated <b>REST API</b> endpoints to meet business needs.
+    - Reviewed pull requests for a <b>Django</b> service to ensure code met
+      engineering standards.
+    - Migrated legacy Node.js application to <b>Kubernetes</b>.
     - Added Kubernetes health probes to enhance availability of applications.
-    - Migrated Jenkins CI/CD pipeline to GitHub Actions
-    - Review pull requests to ensure code meets engineering standards.
-    - Created New Relic dashboards to track key metrics of services.
-    - Created New relic synthetics and alerts to speed up detecting incidents.
-    - Diagnosed and resolved production incidents during on-call rotation.
+    - Migrated Jenkins CI/CD pipeline to <b>GitHub Actions</b>.
+    - Created <b>New Relic</b> dashboards to track key metrics of services.
+    - Created New Relic synthetics and alerts to speed up detecting incidents.
+    - Diagnosed and resolved production incidents involving <b>distributed
+      systems</b>.
   used:
     [
       Python,
@@ -27,11 +29,12 @@
   time: Feb 2019 - Feb 2021
   role: Production Support Engineer
   description:
-    - Created a data pipeline to meet business needs.
+    - Created a data pipeline using <b>Oracle Data Integrator</b> to meet
+      business needs.
     - Collaborated with DBAs to develop a plan for scaling storage on Oracle.
     - Enhanced a report for monitoring 50+ production jobs.
     - Investigated root causes for data mismatches and job failures.
-    - Tuned SQL queries by analyzing query plans.
+    - Tuned <b>SQL</b> queries by analyzing query plans.
   used: [Oracle Database, Oracle Database Integrator, SQL]
 - company: Revature
   url: https://www.revature.com/
