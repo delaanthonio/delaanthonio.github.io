@@ -2,24 +2,58 @@
   url: https://www.invitae.com/
   time: Feb 2021 – Present
   role: Software Engineer
-  description: |
-    I work on core backend services at Invitae.
-  used: [Python, Djang, Typescript, GitHub Actions, AWS, MySQL]
+  description:
+    - Created and Updates REST APIs to meet business needs.
+    - Optimized performance of applications to meet scalability needs.
+    - Migrated Jenkins pipeline to GitHub Actions and reduced the execution time
+      by 50%.
+    - Migrated legacy Node.js application to Kubernetes.
+    - Provide technical guidance to development teams.
+    - Review pull requests to ensure code meets standards.
+    - Created New Relic dashboards, synthetics, and alerts to enhance the
+      observability of applications.
+    - Added Kubernetes health probes to enhance the reliability of applications.
+    - Diagnosed and resolved production incidents during on-call rotation.
+  used:
+    [
+      Python,
+      Django,
+      MySQL,
+      ElasticSearch,
+      Kubernetes,
+      Celery,
+      GitHub Actions,
+      AWS,
+    ]
 - company: Infosys
   url: https://www.infosys.com/
   time: Feb 2019 - Feb 2021
   role: Production Support Engineer
-  description: |
-    I worked in a datawarehouse environment for a client in the utilities industry.
-    I helped to troubleshoot any problems with our data ingestion pipelines.
-    I also helped to create a few new data pipelines.
+  description:
+    - Created a data pipeline to meet business needs.
+    - Collaborated with DBAs to develop a plan for scaling storage on Oracle.
+    - Enhanced a report for monitoring 50+ production jobs.
+    - Investigated root causes for data mismatches and job failures.
+    - Tuned SQL queries by analyzing query plans.
   used: [Oracle Database, Oracle Database Integrator, SQL]
 - company: Revature
   url: https://www.revature.com/
   time: Nov 2018 – Feb 2019
   role: Hadoop Engineer
-  description: |
-    I’m learned several big data technologies as part of Revature’s Big Data curriculum. This included working on one solo project and two group projects.
+  description:
+    - Streamlined analyzing key metrics to boost business value.
+    - Developed MapReduce jobs in Java for batch processing data.
+    - Implemented Spark tasks for faster batch processing data.
+    - Crafted queries in Hive to gain insights on data.
+    - Created Pig scripts to query data and answer business questions.
+    - Ran MapReduce jobs in Cloudera in a pseudo-distributed cluster.
+    - Orchestrated data analysis using Oozie workflows.
+    - Queried data on Oracle in an RDS instance.
+    - Exported data from MySQL to CSV files in HDFS with Sqoop.
+    - Tested MapReduce jobs and Spark tasks using JUnit.
+    - Managed project dependencies and bundling using Maven.
+    - Logged multiple levels in applications using Log4j.
+    - Collaborated in team environments using Agile methodologies.
   used:
     [
       Java,
@@ -30,7 +64,6 @@
       Spark,
       Sqoop,
       Oozie,
-      Zookeeper,
       Cloudera,
       Amazon EMR,
     ]

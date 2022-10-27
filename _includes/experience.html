@@ -11,8 +11,14 @@
             </div>
             <div class="subtitle">{{ job.role }}</div>
             <p class="description">
-                {{ job.description }}
             </p>
+            <ul>
+                {% for item in job.description %}
+                <li>
+                    • {{ item }}
+                </li>
+                {% endfor %}
+            </ul>
             <div>
                 {% for item in job.used %}
                 <span class="tag">{{ item }}</span>
@@ -22,4 +28,3 @@
         {% endfor %}
     </div>
 </section>
- 
