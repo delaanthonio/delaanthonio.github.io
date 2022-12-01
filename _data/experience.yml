@@ -1,59 +1,71 @@
 - company: Invitae
   url: https://www.invitae.com/
   time: Feb 2021 – Present
-  role: Software Engineer
+  role: Software Engineer—Backend
   description:
-    - Created and updated <b>REST API</b> endpoints to meet business needs.
+    - Created and updated <b>REST API</b> endpoints with <b>Python</b> to meet
+      business needs.
     - Reviewed pull requests for a <b>Django</b> service to ensure code met
       engineering standards.
-    - Migrated legacy Node.js application to <b>Kubernetes</b>.
-    - Added Kubernetes health probes to enhance availability of applications.
-    - Migrated Jenkins CI/CD pipeline to <b>GitHub Actions</b>.
-    - Created <b>New Relic</b> dashboards to track key metrics of services.
-    - Created New Relic synthetics and alerts to speed up detecting incidents.
-    - Diagnosed and resolved production incidents involving <b>distributed
-      systems</b>.
+    - Migrated legacy Node.js service from EC2 to <b>Kubernetes</b> to simplify
+      monitoring the service.
+    - Added <b>Kubernetes</b> health probes to enhance availability of
+      applications.
+    - Migrated Jenkins CI/CD pipeline to <b>GitHub Actions</b>. This migration
+      sped up our test suite by 50%.
+    - Created <b>New Relic</b> dashboards to help teammates troubleshoot
+      incidents. These dashboards included metrics like latency, throughput, and
+      error rate for all parts of the tech stack.
+    - Created <b>New Relic</b> synthetics and alerts to speed up detecting
+      incidents.
+    - Created SLIs for production web services to track availability,
+      reliability, and latency.
+    - Diagnosed and resolved production incidents in a <b>distributed
+      systems</b> environment.
   used:
     [
       Python,
       Django,
       MySQL,
-      ElasticSearch,
+      Elasticsearch,
       Kubernetes,
       Celery,
       GitHub Actions,
       AWS,
+      New Relic,
+      Terraform,
     ]
 - company: Infosys
   url: https://www.infosys.com/
-  time: Feb 2019 - Feb 2021
-  role: Production Support Engineer
+  time: Feb 2019 – Feb 2021
+  role: Production Support Engineer—Data and Analytics
   description:
-    - Created a data pipeline using <b>Oracle Data Integrator</b> to meet
-      business needs.
-    - Collaborated with DBAs to develop a plan for scaling storage on Oracle.
-    - Enhanced a report for monitoring 50+ production jobs.
-    - Investigated root causes for data mismatches and job failures.
-    - Tuned <b>SQL</b> queries by analyzing query plans.
+    - Monitored 50+ <b>Oracle</b> jobs and ensured they completed on time. This
+      involved investigating incidents throughout all parts of the stack—from
+      when we recieve data to when we ship data to our consumers.
+    - When one of the business-critcal database tables in <b>Oracle</b> was
+      running out of space I collaborated with database administrators to
+      develop a migration plan to move the data into separate partitions.
+    - Created a data pipeline using <b>Oracle Data Integrator</b> to capture
+      insights on customer data.
+    - When business-critical data pipelines were not performant due to slow
+      queries, I tuned the <b>SQL</b> queries by analyzing query plans.
   used: [Oracle Database, Oracle Database Integrator, SQL]
 - company: Revature
   url: https://www.revature.com/
   time: Nov 2018 – Feb 2019
-  role: Hadoop Engineer
+  role: Junior Software Engineer—Big Data
   description:
-    - Streamlined analyzing key metrics to boost business value.
-    - Developed MapReduce jobs in Java for batch processing data.
-    - Implemented Spark tasks for faster batch processing data.
-    - Crafted queries in Hive to gain insights on data.
-    - Created Pig scripts to query data and answer business questions.
-    - Ran MapReduce jobs in Cloudera in a pseudo-distributed cluster.
-    - Orchestrated data analysis using Oozie workflows.
-    - Queried data on Oracle in an RDS instance.
-    - Exported data from MySQL to CSV files in HDFS with Sqoop.
-    - Tested MapReduce jobs and Spark tasks using JUnit.
-    - Managed project dependencies and bundling using Maven.
-    - Logged multiple levels in applications using Log4j.
-    - Collaborated in team environments using Agile methodologies.
+    - Classified data using a <b>logistic regression</b> algorithm to meet
+      business.
+    - Developed MapReduce jobs in <b>Java</b> for batch processing data.
+    - Implemented <b>Spark</b> tasks for faster batch processing data.
+    - Crafted queries in <b>Hive</b> to gain insights on data.
+    - Ran <b>MapReduce</b> jobs in Cloudera in a pseudo-distributed cluster.
+    - Orchestrated data analysis using <b>Oozie</b> workflows.
+    - Queried data on <b>Oracle</b> in an RDS instance.
+    - Exported data from <b>MySQL</b> to CSV files in HDFS with Sqoop.
+    - Managed project dependencies and bundling using <b>Maven</b>.
   used:
     [
       Java,
