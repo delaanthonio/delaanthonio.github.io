@@ -22,19 +22,6 @@
       reliability, and latency.
     - Diagnosed and resolved production incidents in a <b>distributed
       systems</b> environment.
-  used:
-    [
-      Python,
-      Django,
-      MySQL,
-      Elasticsearch,
-      Kubernetes,
-      Celery,
-      GitHub Actions,
-      AWS,
-      New Relic,
-      Terraform,
-    ]
 - company: Infosys
   url: https://www.infosys.com/
   time: Feb 2019 – Feb 2021
@@ -50,7 +37,6 @@
       insights on customer data.
     - When business-critical data pipelines were not performant due to slow
       queries, I tuned the <b>SQL</b> queries by analyzing query plans.
-  used: [Oracle Database, Oracle Database Integrator, SQL]
 - company: Revature
   url: https://www.revature.com/
   time: Nov 2018 – Feb 2019
@@ -66,16 +52,3 @@
     - Queried data on <b>Oracle</b> in an RDS instance.
     - Exported data from <b>MySQL</b> to CSV files in HDFS with Sqoop.
     - Managed project dependencies and bundling using <b>Maven</b>.
-  used:
-    [
-      Java,
-      Python,
-      SQL,
-      MapReduce,
-      Hive,
-      Spark,
-      Sqoop,
-      Oozie,
-      Cloudera,
-      Amazon EMR,
-    ]
