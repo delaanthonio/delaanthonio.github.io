@@ -1,11 +1,8 @@
-- name: Languages
-  skills: [Python, Typescript, SQL, Bash]
+- name: Programming
+  skills: [Python, Django, Celery, SQL, Bash]
 
-- name: Frameworks
-  skills: [Django, Nest.js]
+- name: Infrastructure
+  skills: [AWS, Kubernetes, Nginx, GitHub Actions, Terraform]
 
-- name: Tools
-  skills: [Github Actions]
-
-- name: Databases & Storage
-  skills: [Oracle, MySQL, PostgresSQL]
+- name: Databases
+  skills: [MySQL, PostgresSQL, Oracle, Redis, Elasticsearch]
